@@ -1,0 +1,121 @@
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body{
+    background-color: #F0EAD6;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    font-family: outfit;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    margin:200px 400px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h1{margin-bottom: 15px;
+font-size: 30px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+h1, h3{
+    font-family: young-serif;
+    font-weight: 300;
+}
+
+ul li.prep{margin: 10px 0px 0px 20px;}
+
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding:20px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+h3, p{
+    margin-bottom: 15px;
+}
+
+h2, .prep::marker {
+    color:hsl(332, 51%, 32%)
+}
+
+h3, .inst::marker, .guide::marker, .nut-value {
+    color:hsl(14, 45%, 36%);
+}
+
+h3{
+    margin-top: 15px;
+}
+
+.ing-inst{
+    border-bottom: 1px solid gainsboro;
+
+}
+
+ol, ul{
+    padding-left: 12px;
+}
+li, ol, p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+li::marker, .nut-value{
+    font-weight: bold;
+
+}
+
+.inst{
+    color: hsl(30, 10%, 34%);
+}
+
+li{
+padding-left: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+
+}
+
